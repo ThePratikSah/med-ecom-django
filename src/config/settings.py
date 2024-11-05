@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "store",
 ]
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
