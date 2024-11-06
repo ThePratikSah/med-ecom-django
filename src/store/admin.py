@@ -3,7 +3,7 @@ from .models import Product, Order, OrderItem, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ["name", "price", "stock", "is_active"]
+    list_display = ["name", "price", "stock", "prescription_required", "is_active"]
 
 
 class CategoryAdmin(admin.ModelAdmin):

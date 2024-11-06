@@ -22,6 +22,7 @@ class Product(models.Model):
     categories = models.ManyToManyField(Category, related_name="products")
     stock = models.PositiveIntegerField(default=0)
     is_active = models.BooleanField(default=True)
+    prescription_required = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
